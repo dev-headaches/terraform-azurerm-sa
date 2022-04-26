@@ -13,7 +13,7 @@ terraform {
 
 
 resource "azurerm_storage_account" "storage_account" {
-  name                     = "sanbeamazfwtst"
+  name                     = "sancldsazfwtst"
   resource_group_name      = var.rgname
   location                 = var.location
   account_tier             = "Standard"
